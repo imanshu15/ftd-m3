@@ -1,5 +1,5 @@
 {
-  "name": "ftd-m3-client",
+  "name": "ftd-m3-client-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

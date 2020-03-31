@@ -58,7 +58,7 @@ namespace FTD.M3.API.Services
                     result.Data = filterQuery.ToList();
                 }
 
-                if (request.Sort != null)
+                if (request.Sort != null && request.Sort.Count() > 0)
                 {
                     if (request.OutputAll || request.Output == null || !request.Sort.Except(request.Output).Any()) {
 
